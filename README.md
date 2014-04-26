@@ -16,8 +16,12 @@ method
 that contains all of the necessary data files for processing
 
 ### System Info
-* Mac OSX 10.9.2 16GB RAM
+The system that I used to test the script is:
+* Mac OSX 10.9.2
+* 2.6GHz Intel Core i7
+* 16GB RAM
 * R 3.0.3 GUI 1.63 Snow Leopard build (6660)
+* RStudio Version 0.98.501
 
 ### Process
 The run_analysis.R script follows the process below to download the raw data
@@ -29,6 +33,16 @@ a tab-separated text format.
 * Downloads raw data from the internet into a directory called "data"
 * Unzips the raw data inside the data directory
 * Combines the data into a single data frame
-* Labels all variables appropriately
+* Labels all variables appropriately using features.txt
+* Sort the data by test subject id and activity id in ascending order
+* Extracts only the variables containing measurements for mean and std
+(I made the assumption that meanFreq() variables should be included as well
+as mean() variables for each measurement)
+* Replaces column of activity id's with descriptive activity labels provided in
+activity_labels.txt
+* Writes this extracted labeled data frame to all_tidy_data.txt
+* Then the extracted labeled data is aggregated to get the average measurements
+of each variable for each activity and each test subject.
+* This second aggregated data set is written to average_tidy_data.txt
 
 ## Code Book
