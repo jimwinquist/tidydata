@@ -36,10 +36,6 @@ data.extracted <- data.ordered[,c("subject", "activity",
 ## Get descriptive activity labels
 activity.labels <- read.table("./data/UCI HAR Dataset/activity_labels.txt")
 
-
-## Transform data frame into matrix to speed up operations
-#extracted.matrix <- as.matrix(data.extracted)
-
 ## Loop through activity id's and replace data frame activity id's that match
 ## with descriptive labels
 for(n in 1:6) {
@@ -57,5 +53,5 @@ colnames(data.average)[1] <- "subject"
 colnames(data.average)[2] <- "activity"
 
 ## Write out tidy data sets to external text file
-write.table(data.extracted, file="./data/all_tidy_data.txt", sep='\t', quote=FALSE)
-write.table(data.average, file="./data/average_tidy_data.txt", sep='\t', quote=FALSE)
+write.table(data.extracted, file="./all_tidy_data.txt", sep='\t', quote=FALSE, row.names=FALSE)
+write.table(data.average, file="./average_tidy_data.txt", sep='\t', quote=FALSE, row.names=FALSE)
