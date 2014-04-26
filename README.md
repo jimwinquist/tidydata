@@ -55,14 +55,14 @@ The feature variables are detailed below:
         * An identifier of the subject who carried out the experiment
 
 ### activity
-        *A character vector containing a descriptive label for each activity
+        * A character vector containing a descriptive label for each activity
         performed as part of the experiment
-        *LAYING
-        *SITTING
-        *STANDING
-        *WALKING
-        *WALKING_DOWNSTAIRS
-        *WALKING_UPSTAIRS
+        * LAYING
+        * SITTING
+        * STANDING
+        * WALKING
+        * WALKING_DOWNSTAIRS
+        * WALKING_UPSTAIRS
 
 ### tBodyAcc-mean()-X
         Average value of this meaurement for each activity ordered by subject
