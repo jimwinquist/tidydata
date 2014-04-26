@@ -25,7 +25,7 @@ process it and return 2 tidy data sets. One contains all of the extracted data
 with labels and another that just contains the averages of all the extracted
 data grouped by test subject and activity. The output files are in
 a tab-separated text format.
-STEPS
+####STEPS
 * Downloads raw data from the internet into a directory called "data"
 * Unzips the raw data inside the data directory
 *
