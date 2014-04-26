@@ -50,19 +50,19 @@ working directory
 The output tidy data set contains 81 feature variables(columns) and
 180 observations(rows)(6 activities * 30 test subjects)
 The feature variables are detailed below:
-subject
-        An integer from 1-30
-        An identifier of the subject who carried out the experiment
+*subject
+        *An integer from 1-30
+        *An identifier of the subject who carried out the experiment
 
-activity
-        A character vector containing a descriptive label for each activity
+*activity
+        *A character vector containing a descriptive label for each activity
         performed as part of the experiment
-        LAYING
-        SITTING
-        STANDING
-        WALKING
-        WALKING_DOWNSTAIRS
-        WALKING_UPSTAIRS
+        *LAYING
+        *SITTING
+        *STANDING
+        *WALKING
+        *WALKING_DOWNSTAIRS
+        *WALKING_UPSTAIRS
 
 tBodyAcc-mean()-X
         Average value of this meaurement for each activity ordered by subject
