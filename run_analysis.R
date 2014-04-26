@@ -53,5 +53,4 @@ colnames(data.average)[1] <- "subject"
 colnames(data.average)[2] <- "activity"
 
 ## Write out tidy data sets to external text file
-write.table(data.extracted, file="./all_tidy_data.txt", sep='\t', quote=FALSE, row.names=FALSE)
-write.table(data.average, file="./average_tidy_data.txt", sep='\t', quote=FALSE, row.names=FALSE)
+write.table(data.average, file="./tidy_data.txt", sep='\t', quote=FALSE, row.names=FALSE)
