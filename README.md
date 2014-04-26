@@ -41,11 +41,9 @@ the current working directory
 as mean() variables for each measurement)
 * Replaces column of activity id's with descriptive activity labels provided in
 activity_labels.txt
-* Writes this extracted labeled data frame to all_tidy_data.txt in the working
-directory
 * Then the extracted labeled data is aggregated to get the average measurements
 of each variable for each activity and each test subject.
-* This second aggregated data set is written to average_tidy_data.txt in the
+* This second aggregated data set is written to tidy_data.txt in the
 working directory
 
 ## Code Book
