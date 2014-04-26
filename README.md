@@ -30,7 +30,8 @@ with labels and another that just contains the averages of all the extracted
 data grouped by test subject and activity. The output files are in
 a tab-separated text format.
 
-* Downloads raw data from the internet into a directory called "data"
+* Downloads raw data from the internet into a directory called "data" inside
+the current working directory
 * Unzips the raw data inside the data directory
 * Combines the data into a single data frame
 * Labels all variables appropriately using features.txt
@@ -40,9 +41,11 @@ a tab-separated text format.
 as mean() variables for each measurement)
 * Replaces column of activity id's with descriptive activity labels provided in
 activity_labels.txt
-* Writes this extracted labeled data frame to all_tidy_data.txt
+* Writes this extracted labeled data frame to all_tidy_data.txt in the working
+directory
 * Then the extracted labeled data is aggregated to get the average measurements
 of each variable for each activity and each test subject.
-* This second aggregated data set is written to average_tidy_data.txt
+* This second aggregated data set is written to average_tidy_data.txt in the
+working directory
 
 ## Code Book
