@@ -50,11 +50,11 @@ working directory
 The output tidy data set contains 81 feature variables(columns) and
 180 observations(rows)(6 activities * 30 test subjects)
 The feature variables are detailed below:
-*subject
-        *An integer from 1-30
-        *An identifier of the subject who carried out the experiment
+### subject
+        * An integer from 1-30
+        * An identifier of the subject who carried out the experiment
 
-*activity
+### activity
         *A character vector containing a descriptive label for each activity
         performed as part of the experiment
         *LAYING
@@ -64,240 +64,240 @@ The feature variables are detailed below:
         *WALKING_DOWNSTAIRS
         *WALKING_UPSTAIRS
 
-tBodyAcc-mean()-X
+### tBodyAcc-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAcc-mean()-Y
+### tBodyAcc-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAcc-mean()-Z
+### tBodyAcc-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-mean()-X
+### tGravityAcc-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-mean()-Y
+### tGravityAcc-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-mean()-Z
+### tGravityAcc-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-mean()-X
+### tBodyAccJerk-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-mean()-Y
+### tBodyAccJerk-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-mean()-Z
+### tBodyAccJerk-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-mean()-X
+### tBodyGyro-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-mean()-Y
+### tBodyGyro-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-mean()-Z
+### tBodyGyro-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-mean()-X
+### tBodyGyroJerk-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-mean()-Y
+### tBodyGyroJerk-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-mean()-Z
+### tBodyGyroJerk-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccMag-mean()
+### tBodyAccMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAccMag-mean()
+### tGravityAccMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerkMag-mean()
+### tBodyAccJerkMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroMag-mean()
+### tBodyGyroMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerkMag-mean()
+### tBodyGyroJerkMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-mean()-X
+### fBodyAcc-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-mean()-Y
+### fBodyAcc-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-mean()-Z
+### fBodyAcc-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-meanFreq()-X
+### fBodyAcc-meanFreq()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-meanFreq()-Y
+### fBodyAcc-meanFreq()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-meanFreq()-Z
+### fBodyAcc-meanFreq()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-mean()-X
+### fBodyAccJerk-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-mean()-Y
+### fBodyAccJerk-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-mean()-Z
+### fBodyAccJerk-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-meanFreq()-X
+### fBodyAccJerk-meanFreq()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-meanFreq()-Y
+### fBodyAccJerk-meanFreq()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-meanFreq()-Z
+### fBodyAccJerk-meanFreq()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-mean()-X
+### fBodyGyro-mean()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-mean()-Y
+### fBodyGyro-mean()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-mean()-Z
+### fBodyGyro-mean()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-meanFreq()-X
+### fBodyGyro-meanFreq()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-meanFreq()-Y
+### fBodyGyro-meanFreq()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-meanFreq()-Z
+### fBodyGyro-meanFreq()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccMag-mean()
+### fBodyAccMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccMag-meanFreq()
+### fBodyAccMag-meanFreq()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyAccJerkMag-mean()
+### fBodyBodyAccJerkMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyAccJerkMag-meanFreq()
+### fBodyBodyAccJerkMag-meanFreq()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroMag-mean()
+### fBodyBodyGyroMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroMag-meanFreq()
+### fBodyBodyGyroMag-meanFreq()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroJerkMag-mean()
+### fBodyBodyGyroJerkMag-mean()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroJerkMag-meanFreq()
+### fBodyBodyGyroJerkMag-meanFreq()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAcc-std()-X
+### tBodyAcc-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAcc-std()-Y
+### tBodyAcc-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAcc-std()-Z
+### tBodyAcc-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-std()-X
+### tGravityAcc-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-std()-Y
+### tGravityAcc-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAcc-std()-Z
+### tGravityAcc-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-std()-X
+### tBodyAccJerk-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-std()-Y
+### tBodyAccJerk-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerk-std()-Z
+### tBodyAccJerk-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-std()-X
+### tBodyGyro-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-std()-Y
+### tBodyGyro-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyro-std()-Z
+### tBodyGyro-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-std()-X
+### tBodyGyroJerk-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-std()-Y
+### tBodyGyroJerk-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerk-std()-Z
+### tBodyGyroJerk-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccMag-std()
+### tBodyAccMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-tGravityAccMag-std()
+### tGravityAccMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyAccJerkMag-std()
+### tBodyAccJerkMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroMag-std()
+### tBodyGyroMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-tBodyGyroJerkMag-std()
+### tBodyGyroJerkMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-std()-X
+### fBodyAcc-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-std()-Y
+### fBodyAcc-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAcc-std()-Z
+### fBodyAcc-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-std()-X
+### fBodyAccJerk-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-std()-Y
+### fBodyAccJerk-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccJerk-std()-Z
+### fBodyAccJerk-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-std()-X
+### fBodyGyro-std()-X
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-std()-Y
+### fBodyGyro-std()-Y
         Average value of this meaurement for each activity ordered by subject
 
-fBodyGyro-std()-Z
+### fBodyGyro-std()-Z
         Average value of this meaurement for each activity ordered by subject
 
-fBodyAccMag-std()
+### fBodyAccMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyAccJerkMag-std()
+### fBodyBodyAccJerkMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroMag-std()
+### fBodyBodyGyroMag-std()
         Average value of this meaurement for each activity ordered by subject
 
-fBodyBodyGyroJerkMag-std()
+### fBodyBodyGyroJerkMag-std()
         Average value of this meaurement for each activity ordered by subject
 
