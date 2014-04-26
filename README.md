@@ -47,3 +47,257 @@ of each variable for each activity and each test subject.
 working directory
 
 ## Code Book
+The output tidy data set contains 81 feature variables(columns) and
+180 observations(rows)(6 activities * 30 test subjects)
+The feature variables are detailed below:
+subject
+        An integer from 1-30
+        An identifier of the subject who carried out the experiment
+
+activity
+        A character vector containing a descriptive label for each activity
+        performed as part of the experiment
+        LAYING
+        SITTING
+        STANDING
+        WALKING
+        WALKING_DOWNSTAIRS
+        WALKING_UPSTAIRS
+
+tBodyAcc-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAcc-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAcc-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAccMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerkMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerkMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-meanFreq()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-meanFreq()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-meanFreq()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-meanFreq()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-meanFreq()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-meanFreq()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-mean()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-mean()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-mean()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-meanFreq()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-meanFreq()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-meanFreq()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccMag-meanFreq()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyAccJerkMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyAccJerkMag-meanFreq()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroMag-meanFreq()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroJerkMag-mean()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroJerkMag-meanFreq()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAcc-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAcc-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAcc-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAcc-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerk-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyro-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerk-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+tGravityAccMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyAccJerkMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+tBodyGyroJerkMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAcc-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccJerk-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-std()-X
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-std()-Y
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyGyro-std()-Z
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyAccMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyAccJerkMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
+fBodyBodyGyroJerkMag-std()
+        Average value of this meaurement for each activity ordered by subject
+
